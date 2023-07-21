@@ -159,8 +159,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="de.softpro.doc">
-      <HintPath>..\..\..\..\Desktop\dll\de.softpro.doc.winmd</HintPath>
+    <Reference Include="de.softpro.doc, Version=255.255.255.255, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\de.softpro.doc.winmd</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
